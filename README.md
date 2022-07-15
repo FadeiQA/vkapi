@@ -1,24 +1,22 @@
 # vkapi
 
-## Project setup
+## Запуск проекта
 ```
-yarn install
+npm i
+
+run serve
+
+Перейти по ссылке и зарегистровать приложение
+https://vk.com/apps?act=manage
+
+Название : Любое
+Платформа : Сайт
+Адрес сайта - IP запущенного проекта (прим.  http://192.168.0.96:8080/)
+Базовый домен - IP запущенного проекта без HTTP и порта (прим. 192.168.0.96)
+
+Полученный ID приложения вписать в public/index.html 
+
+12 строчка <script>VK.init({apiId: IP от ВК})</script>
+
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
